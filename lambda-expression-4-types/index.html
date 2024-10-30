@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kejun Liu">
+    <title>Understanding 4 Types of Lambda Expressions in Java</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Header -->
+    <h1 id="main-title">4 Types of Lambda Expressions in Java</h1>
+
+    <!-- Subheader -->
+    <h2 class="section-header">An Introduction to Java's Lambda Expressions</h2>
+    <p>Lambda expressions, introduced in Java 8, allow for more concise and functional programming styles. They streamline the use of single-method interfaces, making code more readable and reducing boilerplate.</p>
+
+    <!-- Explanation of Lambda Expression Types -->
+    <h3 class="section-header">Types of Lambda Expressions</h3>
+    <p>Java lambda expressions can be classified based on the number of input values and whether they return a result. Here are the four main types:</p>
+    
+    <ul>
+        <li>
+            <strong>Void in, Void out</strong>: A lambda with no input or output, often used for simple actions. 
+            <code>() -> System.out.println("Hello World!")</code>
+            <br>
+            <img src="0-in-0-out.png" alt="Void in, Void out Lambda Expression" style="max-width: 300px; height: auto;">
+        </li>
+        <li>
+            <strong>1 Value in, Void out</strong>: Takes one input but does not return a result. 
+            <code>x -> System.out.println(x)</code>
+            <br>
+            <img src="1-in-0-out.png" alt="1 Value in, Void out Lambda Expression" style="max-width: 300px; height: auto;">
+        </li>
+        <li>
+            <strong>1 Value in, Value out</strong>: Accepts one input and returns a value. 
+            <code>x -> x * x</code>
+            <br>
+            <img src="1-in-1-out.png" alt="1 Value in, Value out Lambda Expression" style="max-width: 300px; height: auto;">
+        </li>
+        <li>
+            <strong>2 Values in, Value out</strong>: Takes two inputs and produces a result. 
+            <code>(a, b) -> a + b</code>
+            <br>
+            <img src="2-in-1-out.png" alt="2 Values in, Value out Lambda Expression" style="max-width: 300px; height: auto;">
+        </li>
+    </ul>
+
+    <!-- Additional Resources Link -->
+    <p>For more details, visit the <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html" target="_blank">Oracle Lambda Expressions Documentation</a>.</p>
+
+</body>
+</html>

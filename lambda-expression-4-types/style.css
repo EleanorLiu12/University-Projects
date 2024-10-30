@@ -1,0 +1,47 @@
+style.css
+/* Element name selector */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Class selector for general sections */
+.section-header {
+    color: #0066cc;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+/* ID selector for main title */
+#main-title {
+    font-size: 2.5em;
+    color: #003366;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e0e7ff;
+}
+
+/* Additional styling for the image */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #0066cc;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styling for links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
