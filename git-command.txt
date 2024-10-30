@@ -9,7 +9,7 @@ git commit -m "Initial commit"
 git push -u origin main  # Replace 'main' with the default branch name of your repo if it's different
 
 
-git config --global user.email "153949686+EleanorLiu12@users.noreply.github.com"
+git config --global user.email "？"
 
 git commit --amend --author="Eleanor <153949686+EleanorLiu12@users.noreply.github.com>"
 
